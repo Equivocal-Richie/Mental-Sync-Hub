@@ -1,4 +1,6 @@
 import React from 'react';
+import '../styles/App.css'
+
 import Home from './homepage/Home';
 import About from './homepage/About';
 import Features from './homepage/Features';
