@@ -16,7 +16,7 @@ nav .logo{
   justify-content: space-between;
   align-items: center;
 }
-nav .logo #mylogo{
+#mylogo{
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -60,6 +60,7 @@ nav .navlinks ul li #signin{
 /* Home cont */
 .homeCont{
   background-color: #68D8D6;
+  border: 1px solid black;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -85,4 +86,174 @@ nav .navlinks ul li #signin{
   margin-top: 20px;
 }
 /* Home cont end */
+/* About start */
+.aboutCont{
+  padding: 20px;
+  margin-bottom: 50px;
+  
+}
+.aboutCont .aboutone{
+  padding: 10px;
+}
+.aboutCont #aboutone{
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  line-height: 200%;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.aboutCont .aboutone span{
+  margin: 0 30px 0 0;
+}
+.aboutCont .aboutone .abouttxt #aboutonespan1{
+  color: #07BEB8;
+}
+
+.aboutCont .abouttwo{
+  padding: 10px;
+}
+.aboutCont #abouttwo{
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  line-height: 200%;
+  justify-content: space-between;
+  text-align: center;
+  padding: 20px;
+}
+
+.aboutCont .abouttwo span{
+  margin: 0 0 0 30px;
+}
+
+.aboutCont .aboutthrees{
+  padding: 10px;
+}
+.aboutCont .aboutthrees{
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  line-height: 200%;
+  justify-content: space-between;
+  text-align: center;
+  padding: 20px;
+}
+.aboutCont .aboutthrees #aboutthreeone{
+  display: flex;
+  flex-direction: column;
+  /* margin-right: 10px; */
+  align-items: center;
+}
+.aboutCont .aboutthrees #aboutthreetwo{
+  display: flex;
+  flex-direction: column;
+  /* margin-left: 10px; */
+  align-items: center;
+}
+
+.aboutCont .aboutthree span{
+  margin: 20px 0;
+}
+.bottomabt{
+  background-color: #FED9B7;
+  width: 80vw;
+  margin: auto;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+.bottomabt h2{
+  color: #0081A7;
+}
+.bottomabt button{
+  color: #07BEB8;
+  border: 2px solid #07BEB8;
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
+  font-weight: bold;
+  width: 170px;
+  font-size: 22px;
+  box-shadow: 2px 2px 20px gray;
+}
+/* About end */
+/* Features */
+.myfeatures{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.myfeatures .featuresConts{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.afeature{
+  width: 25%;
+  border: 2px solid #0081A7;
+  height: 100px;
+  margin: 20px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px #FF686B;
+  font-size: 20px;
+}
+/* Features end */
+/* FAQs */
+.myfaqs{
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+.myfaqs h2{
+  text-align: center;
+}
+.myfaqs .calltoact{
+  background-color: #FED9B7;
+  padding: 20px;
+  border-radius: 20px;
+  width: 50%;
+  box-shadow: 2px 2px 5px gray;
+  margin: 40px auto;
+  text-align: center;
+  font-size: 25px;
+}
+/* FAQs end */
+/* Footer */
+.footer{
+  background-color: #68D8D6;
+  padding: 15px;
+}
+.myfooter{
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 17px;
+  align-items: start;
+}
+.myfooter ul{
+  list-style-type: none;
+}
+.myfooter a{
+  color: black;
+  /* text-decoration: none; */
+}
+.myfooter .logo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: -20px;
+}
+
+.myfooter .left a{
+  text-decoration: none;
+}
+.footer #mycopyright{
+  text-align: center;
+  font-size: 15px;
+}
+/* Footer */
 /* Homepage end */

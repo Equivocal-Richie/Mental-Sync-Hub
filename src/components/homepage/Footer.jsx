@@ -2,33 +2,41 @@ import React from 'react';
 
 function Footer() {
   return (
-    <div>
+    <div className='footer'>
+    <div className='myfooter'>
       <div className="left">
         <div className="logo">
+          <div id="mylogo"></div>
           <h3>MentalSync Hub</h3>
         </div>
-        <p>Privacy Policy</p>
-        <p>Terms and Conditions</p>
-        <p>Community Guidelines</p>
-        <p>AI Guidelines & Safety</p>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms and Conditions</a></li>
+          <li><a href="#">Community Guidelines</a></li>
+          <li><a href="#">AI Guidelines & Safety</a></li>
+        </ul>
       </div>
       <div className="center">
-        <p>Navigation Links</p>
-        <p>Home</p>
-        <p>About us</p>
-        <p>Features</p>
-        <p>FAQs</p>
-        <p>SignIn / SignUp</p>
+        <span><b>Navigation Links</b></span>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">SignIn / SignUp</a></li>
+        </ul>
       </div>
       <div className="right">
-        <p>OUR SOCIALS</p>
+        <p><b>OUR SOCIALS</b></p>
         <div className="socialicons">
 
         </div>
-        <span>Helpline</span><a href="tel:+254 712-345-678"></a>
-        <span>Email:</span><a href="mailto:info@mentalsynchub.gmail.com"></a>
+        <span>Helpline</span><a href="tel:+254712345678">+254 712-345-678</a><br />
+        <span>Email:</span><a href="mailto:info@mentalsynchub.gmail.com">info@mentalsynchub.gmail.com</a>
       </div>
-      <div className="copyright">2024 MentalSync Hub. All rights Reserved</div>
+      
+    </div>
+    <p id='mycopyright'>2024 MentalSync Hub. All rights Reserved</p>
     </div>
   );
 }

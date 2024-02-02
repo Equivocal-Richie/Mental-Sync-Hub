@@ -2,7 +2,7 @@ import React from 'react';
 
 function Faqs() {
   return (
-    <div>
+    <div className='myfaqs'>
       <h2>FAQs</h2>
       <div className="faqs">
         <div className="afaq">
@@ -40,7 +40,7 @@ function Faqs() {
         </div><hr />
       </div>
       <div className="calltoact">
-      Ready to get started? Sign Up
+      Ready to get started? <b>SIGN UP </b>
       </div>
     </div>
   );
