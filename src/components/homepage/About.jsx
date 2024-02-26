@@ -20,7 +20,7 @@ function About() {
               Feel better faster, without the hassle.
             </span>
           </div>
-          <img src={img1} alt="" width={"400px"}/>
+          <img src={img1} alt="" width={"420px"}/>
         </div>
       </div>
       <hr />

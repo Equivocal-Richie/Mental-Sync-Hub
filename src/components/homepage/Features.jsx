@@ -7,6 +7,7 @@ function Features() {
       <div className="featuresConts">
         <div className="afeature">
           <p>Book Sessions</p>
+          <span><i class="bi bi-chevron-down"></i></span>
         </div>
         <div className="afeature">
           <p>Quizzes</p>
