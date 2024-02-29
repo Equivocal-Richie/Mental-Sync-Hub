@@ -1,14 +1,15 @@
 
 import './styles/App.css'
-import Homepage from './components/Homepage'
+// import Homepage from './components/Homepage';
+import Postlogin from './components/Postlogin';
 
 function App() {
-
   return (
     <>
-      <Homepage/>
+      <Postlogin/>
+      {/* <Homepage /> */}
     </>
-  )
+  );
 }
 
 export default App

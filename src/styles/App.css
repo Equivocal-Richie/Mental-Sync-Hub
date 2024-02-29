@@ -3,52 +3,55 @@ body{
 }
 /* Homepage */
 /* Nav */
-nav{
+.nav{ 
+  background-color: #68D8D6;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 0 30px;
-  background-color: #68D8D6
+  align-items:  flex-start;
+  padding: 20px 30px 10px 30px;
 }
-nav .logo{
+.nav .logo{
   display: flex;
-  width: 230px;
+  width: 23%;
   justify-content: space-between;
   align-items: center;
+  align-content: center;
+  padding: 0;
 }
+
 #mylogo{
   width: 40px;
   height: 40px;
-  border-radius: 50%;
   background-color: gray;
+  border-radius: 50%;
 }
-nav .logo p{
-  font-size: 25px;
+.nav .logo span{
+  font-size: 30px;
   font-weight: bold;
 }
-nav .navlinks ul{
+.nav .navlinks{
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 35vw;
   list-style-type: none;
 }
-nav .navlinks ul li a{
+.nav .navlinks li a{
   text-decoration: none;
   font-weight: 500;
   color: black;
 }
-nav .navlinks ul li a:hover{
+.nav .navlinks li a:hover{
   border-bottom: 2px solid black;
   padding: 5px 0;
   font-weight: bold;
 }
-nav .navlinks ul li #active{
+.nav .navlinks li #active{
   border-bottom: 2px solid black;
   padding: 5px 0;
   font-weight: bold;
 }
-nav .navlinks ul li #signin{
+.nav .navlinks li #signin{
   border: 2px solid #1e1e1e;
   text-transform: capitalize;
   color: white;
@@ -104,10 +107,11 @@ nav .navlinks ul li #signin{
   text-align: center;
   width: 90vw;
 }
-
+.aboutCont .aboutone .abouttxt{
+  width: 60%;
+}
 .aboutCont .aboutone span{
   margin: 0 30px 0 0;
-  width: 50%;
 }
 .aboutCont .aboutone .abouttxt #aboutonespan1{
   color: #07BEB8;
@@ -180,6 +184,10 @@ nav .navlinks ul li #signin{
   width: 170px;
   font-size: 22px;
   box-shadow: 2px 2px 20px gray;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: auto;
 }
 /* About end */
 /* Features */
@@ -211,8 +219,16 @@ nav .navlinks ul li #signin{
   margin-bottom: 30px;
   font-size: 20px;
 }
+.bi {
+  font-family: "bootstrap-icons";
+}
 .myfaqs h2{
   text-align: center;
+}
+.myfaqs .faqs .afaq{
+  margin: auto 20px;
+  display: flex;
+  justify-content: space-between;
 }
 .myfaqs .calltoact{
   background-color: #FED9B7;
@@ -223,6 +239,15 @@ nav .navlinks ul li #signin{
   margin: 40px auto;
   text-align: center;
   font-size: 25px;
+}
+.myfaqs .calltoact span{
+  display: flex;
+  justify-content: space-evenly;
+}
+.myfaqs .calltoactbtn{
+  display: flex;
+  align-items: center;
+  width: 30%;
 }
 /* FAQs end */
 /* Footer */
@@ -235,6 +260,11 @@ nav .navlinks ul li #signin{
   justify-content: space-evenly;
   font-size: 17px;
   align-items: start;
+}
+.myfooter .left{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 .myfooter ul{
   list-style-type: none;
@@ -249,7 +279,9 @@ nav .navlinks ul li #signin{
   justify-content: space-between;
   margin-bottom: -20px;
 }
-
+.myfooter .logo #mylogo{
+  padding: 10px;
+}
 .myfooter .left a{
   text-decoration: none;
 }

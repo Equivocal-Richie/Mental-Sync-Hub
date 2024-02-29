@@ -1,0 +1,243 @@
+*{
+  box-sizing: border-box;
+}
+/* Navbar */
+.navContainer{
+  background-color: #68D8D6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 15px;
+  height: 65px;
+}
+
+.navContainer .logotxt{
+  font-weight: bold;
+  font-size: 22px;
+}
+.navContainer div{
+  display: flex;
+  align-items: center;
+}
+.navContainer .logo{
+  display: flex;
+  justify-content: space-evenly
+  ;
+  width: 25%;
+}
+.navContainer img{
+  width: 35px;
+  height: auto;
+}
+.navContainer div div{
+  padding: 10px;
+}
+/* Navbar end*/
+
+/* Sidebar */
+.sidebarContainer{
+  background-color: #68D8D6;
+  width: 22%;
+  display: flex;
+  align-items: center;
+  height: calc(100vh - 65px);
+  /* z-index: -1; */
+}
+.sidebarContainer #quizzes{
+  border-bottom-right-radius: 0;
+}
+.sidebarContainer #challenges{
+  border-top-left-radius: 0;
+}
+.sidebarContainer #booksess{
+  border-top-right-radius: 0;
+}
+.sidebarContainer #trackmood{
+  border-bottom-left-radius: 0;
+}
+.sidebarContainer #resources{
+  border-bottom-right-radius: 0;
+}
+.sidebarContainer #communities{
+  border-top-left-radius: 0;
+}
+.sidebarContainer ul{
+  list-style-type: none;
+  height: 100%;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-bottom: 20px;
+}
+
+.sidebarContainer ul li{
+  background-color: #FED9B7;
+  border: 2px solid black;
+  padding: 15px;
+  border-radius: 20px;
+  align-items: center;
+  margin: 10px;
+  margin-left: -15px;
+  width: 100%;
+  
+}
+.sidebarContainer ul li img{
+  width: 30px;
+  margin-right: 10px;
+}
+.sidebarContainer ul a{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500
+  
+  ;
+}
+/* Sidebar end*/
+
+/* Footer */
+.footerContainer{
+  background-color: #68D8D6;
+  display: flex;
+  height: 100px;
+  padding: 20px 50px;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 100vh;
+  right: 0;
+  left: 0;
+}
+.footerContainer .leftCont ul{
+  list-style-type: none;
+}
+.footerContainer .leftCont ul a{
+  color: black;
+}
+.footerContainer .middleCont{
+  font-size: 15px;
+}
+.footerContainer .rightCont{
+  text-align: center;
+}
+.footerContainer .rightCont .socialIcons{
+  display: flex;
+  justify-content: space-evenly;
+}
+.footerContainer .rightCont .socialIcons svg{
+  margin: 10px;
+}
+/* Footer end*/
+/* MainCont */
+.mainpageContainer{
+  display: flex;
+  flex: 1;
+}
+/* Maincont end */
+/* Quizzes */
+.quizContainer{
+  padding: 20px;
+  flex: 1;
+}
+.quizContainer .introquiz{
+  width: 65%;
+  background-color: #FED9B7;
+  padding: 50px;
+  border-radius: 20px;
+  margin: 30px auto;
+  text-align: center;
+  font-size: 20px;
+  box-shadow: 2px 2px 5px gray;
+  border: 1px solid gray;
+  font-weight: 500;
+}
+.quizContainer .introquiz button{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  background-color: #68D8D6;
+  padding: 5px;
+  width: 25%;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 30px;
+  border: none;
+  box-shadow: 2px 2px 2px;
+}
+.quizContainer .quizCategories{
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  font-size: 17px;
+}
+.quizOptions{
+  width: 80%;
+}
+.quizContainer .quizCategories table tr{
+  border-bottom: 1px solid;
+}
+.quizContainer .quizCategories table tr:last-child{
+  border-bottom: none;
+}
+.quizContainer .quizCategories table td{
+  padding: 7px;
+  font-weight: 500;
+  text-shadow: 2px 2px #FED9B7;
+}
+.quizContainer .quizCategories table td:first-child{
+  border-right: 1px solid;
+}
+.quizContainer .quizCategories table tr:nth-child(odd) td:first-child{
+  text-shadow: 2px 2px #68D8D6;
+}
+.quizContainer .quizCategories table tr:nth-child(even) td:last-child{
+  text-shadow: 2px 2px #68D8D6;
+}
+/* Quizzes end*/
+
+/* Challenges */
+.challengeContainer{
+  padding-top: 30px;
+  flex: 1;
+  font-size: 18px;
+}
+.challengeContainer .challengeConts{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 25px auto;
+  width: 80%;
+}
+.challengeContainer .chattl{
+  font-weight: 500;
+  text-align: center;
+  font-size: 22px;
+}
+.challengeContainer .challengeConts .chalbox{
+  width: 45%;
+  padding: 20px;
+  background-color: whitesmoke;
+  box-shadow: 2px 2px 5px;
+  text-align: center;
+  margin: 5px;
+}
+/* Challenges end*/
+
+/* Booking */
+/* Booking end*/
+
+/* Track mood */
+/* Track mood end*/
+
+/* Resources */
+/* Resources end*/
+
+/* Communities */
+/* Communities end */

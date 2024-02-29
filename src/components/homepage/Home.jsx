@@ -4,20 +4,18 @@ import community from "../../images/community.png";
 function Home() {
   return (
     <div>
-      <nav>
+      <nav className="nav">
         <div className="logo">
           <div id="mylogo"></div>
-          <p>MentalSync Hub</p>
+          <span>MentalSync Hub</span>
         </div>
-        <div className="navlinks">
-          <ul>
+          <ul className="navlinks">
             <li><a href="#" id="active">HOME</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">FEATURES</a></li>
-            <li><a href="#">FAQs</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#features">FEATURES</a></li>
+            <li><a href="#faqs">FAQs</a></li>
             <li><a href="#" id="signin">Sign In</a></li>
           </ul>
-        </div>
       </nav>
       <div className="homeCont">
         <img src={community} alt="" width={"300px"}/>

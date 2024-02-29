@@ -2,13 +2,16 @@ import React from 'react';
 
 function Footer() {
   return (
-    <div className='footer'>
+  <div className='footer'>
     <div className='myfooter'>
       <div className="left">
         <div className="logo">
           <div id="mylogo"></div>
           <h3>MentalSync Hub</h3>
-        </div>
+        </div><br />
+
+
+        
         <ul>
           <li><a href="#">Privacy Policy</a></li>
           <li><a href="#">Terms and Conditions</a></li>
@@ -37,7 +40,7 @@ function Footer() {
       
     </div>
     <p id='mycopyright'>2024 MentalSync Hub. All rights Reserved</p>
-    </div>
+  </div>
   );
 }
 

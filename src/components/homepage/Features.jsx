@@ -2,7 +2,7 @@ import React from 'react';
 
 function Features() {
   return (
-    <div className='myfeatures'>
+    <div className='myfeatures' id='features'>
       <h2>Explore Our Features </h2>
       <div className="featuresConts">
         <div className="afeature">
