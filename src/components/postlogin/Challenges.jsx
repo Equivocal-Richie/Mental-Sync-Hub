@@ -19,7 +19,7 @@ function Challenges() {
             <div className="chalbox">Digital Detox</div>
             <div className="chalbox">Habit Building</div>
             <div className="chalbox">Sleep Improvement</div>
-            <div className="chalbox">Stress Relief</div>
+            <div className="chalbox">Stress Relief Games</div>
             <div className="chalbox">Acts of Kindness</div>
             <div className="chalbox">Learning</div>
             <div className="chalbox">Creativity</div>
